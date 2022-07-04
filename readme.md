@@ -1,7 +1,9 @@
 ## Repos avec:
  * python 2.7.18 pour redhat8
    * avec pip/setuptools/wheels
+ * Centos7: virtual env pour graphite (/opt/shinken/shinken_venv_graphite_centos7) avec ce qu'il faut pour carbon & apache
 
+# Builder Python sur redhat 8
 ## Pour le builder:
     tar vftz python-2.7.18-centos8.tar.gz
     ./configure --with-cxx-main=/usr/bin/g++ --prefix=/opt/shinken/python27 LDFLAGS=-Wl,-rpath=/opt/shinken/python27/lib  --enable-optimizations
