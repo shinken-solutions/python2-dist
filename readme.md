@@ -2,6 +2,7 @@
  * python 2.7.18 pour redhat8
    * avec pip/setuptools/wheels
  * Centos7: virtual env pour graphite (/opt/shinken/shinken_venv_graphite_centos7) avec ce qu'il faut pour carbon & apache
+ * RedHat8: virtual env pour graphite (/opt/shinken/shinken_venv_graphite_redhat8) avec ce qu'il faut pour carbon & apache* 
 
 # Builder Python sur redhat 8
 ## Pour le builder:
